@@ -72,7 +72,7 @@ String generateHTML()
   for (int i = 1; i <= 20; i++)
   {
     buttonHTML += "<button class=\"button\" id=\"button" + String(i) + "\" data-state=\"OFF\" onclick=\"sendToggle(" + String(i) + ")\">";
-    buttonHTML += "<img src=\"https://yasith.great-site.net/lamp_without_flame.png\">";
+    buttonHTML += "<img src=\"https://prhayvjhhvikyogvygja.supabase.co/storage/v1/object/public/images/3e267225-3d4a-4ca5-af36-e959ec9009ae/41688946-f69d-4900-a1fc-a2cef099d406.png">";
     buttonHTML += "</button>\n";
   }
 
@@ -85,7 +85,7 @@ String generateHTML()
     <style>
       body {
         font-family: Arial, sans-serif;
-        background-image: url('http://yasith.great-site.net//uploads/685c3974f11b79.04087238.png');
+        background-image: url('https://prhayvjhhvikyogvygja.supabase.co/storage/v1/object/public/images/3e267225-3d4a-4ca5-af36-e959ec9009ae/370f1e40-faea-4332-8f90-136bb88f068b.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -169,8 +169,8 @@ String generateHTML()
           if (xhr.readyState == 4 && xhr.status == 200) {
             button.setAttribute("data-state", state === 1 ? "ON" : "OFF");
             button.innerHTML = "<img src='" + (state === 1
-              ? "https://yasith.great-site.net/lamp_with_flame.png"
-              : "https://yasith.great-site.net/lamp_without_flame.png") + "'>";
+              ? "https://prhayvjhhvikyogvygja.supabase.co/storage/v1/object/public/images/3e267225-3d4a-4ca5-af36-e959ec9009ae/8cef0d3e-23f4-4518-a3e0-144c369772f0.png"
+              : "https://prhayvjhhvikyogvygja.supabase.co/storage/v1/object/public/images/3e267225-3d4a-4ca5-af36-e959ec9009ae/41688946-f69d-4900-a1fc-a2cef099d406.png") + "'>";
           }
         };
         xhr.send();
@@ -178,7 +178,7 @@ String generateHTML()
     </script>
   </body>
   </html>
-  )rawliteral";
+  )rawliteral;
 
   html.replace("%BUTTONS%", buttonHTML);
   return html;
