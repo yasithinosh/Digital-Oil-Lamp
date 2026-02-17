@@ -54,7 +54,16 @@ The LEDs are connected to the following pins on the Arduino Mega:
     const char *password = "YOUR_WIFI_PASSWORD";
     ```
 
-2.  **Upload to ESP32**:
+2.  **Change Background Image (Optional)**:
+    - Go to [oillamp.inovoid.me](https://oillamp.inovoid.me).
+    - Sign up and log in.
+    - Upload your picture.
+    - Copy the image URL and paste it into `Oil_Lamp_ESP32.ino` under:
+      ```css
+      background-image: url('YOUR_IMAGE_URL');
+      ```
+
+3.  **Upload to ESP32**:
     - Select your ESP32 board in Arduino IDE.
     - Connect the ESP32 via USB.
     - Upload `Oil_Lamp_ESP32.ino`.
@@ -78,3 +87,12 @@ The LEDs are connected to the following pins on the Arduino Mega:
 ## Notes
 - The Web Interface currently generates buttons for 20 lamps, but the Arduino Mega code is configured to handle the first 16.
 - The web page images are loaded from an external Supabase storage URL, so the device viewing the page needs internet access.
+
+## Gallery
+
+### 1. Web Interface
+*(Add a screenshot of your web interface here)*
+![Web Interface Placeholder](https://via.placeholder.com/600x400?text=Web+Interface+Screenshot)
+
+### 2. Oil Lamp
+![Oil Lamp](https://prhayvjhhvikyogvygja.supabase.co/storage/v1/object/public/images/3e267225-3d4a-4ca5-af36-e959ec9009ae/8cef0d3e-23f4-4518-a3e0-144c369772f0.png)

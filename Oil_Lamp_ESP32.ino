@@ -4,8 +4,8 @@
 #include <SPIFFS.h>
 
 // Replace with your network credentials
-const char *ssid = "TECH_B";
-const char *password = "VoidYasi";
+const char *ssid = "YOUR_WIFI_SSID";
+const char *password = "YOUR_WIFI_PASSWORD";
 
 // Create an instance of the web server running on port 80
 WebServer server(80);
@@ -155,7 +155,7 @@ String generateHTML()
     </style>
   </head>
   <body>
-    <h2>AMT AGM 2025</h2>
+    <h2>RUSL 2025</h2>
     <div id="buttons">
       %BUTTONS%
     </div>
