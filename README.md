@@ -95,4 +95,4 @@ The LEDs are connected to the following pins on the Arduino Mega:
 ![Web Interface Placeholder](https://via.placeholder.com/600x400?text=Web+Interface+Screenshot)
 
 ### 2. Oil Lamp
-![Oil Lamp](https://prhayvjhhvikyogvygja.supabase.co/storage/v1/object/public/images/3e267225-3d4a-4ca5-af36-e959ec9009ae/8cef0d3e-23f4-4518-a3e0-144c369772f0.png)
+![Oil Lamp](https://prhayvjhhvikyogvygja.supabase.co/storage/v1/object/public/images/3e267225-3d4a-4ca5-af36-e959ec9009ae/00ed7cce-4792-41b3-8e33-42235e2ac2da.jpeg)
